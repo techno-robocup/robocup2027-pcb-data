@@ -4937,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 133.35) (xy 93.98 133.35)
+			(xy 83.82 133.35) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5117,7 +5117,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 34.29) (xy 99.06 34.29)
+			(xy 97.79 45.72) (xy 97.79 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6327,6 +6327,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 34.29) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05b97ac-a38d-4c34-9d9a-0031d7faa512")
+	)
+	(wire
+		(pts
 			(xy 91.44 114.3) (xy 91.44 168.91)
 		)
 		(stroke
@@ -6651,7 +6661,7 @@
 	)
 	(global_label "load2_DAT"
 		(shape input)
-		(at 87.63 133.35 180)
+		(at 83.82 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6661,7 +6671,7 @@
 		)
 		(uuid "21e662b3-fa2b-498d-9cd1-72e829c84162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0293 133.35 0)
+			(at 71.2193 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +6793,7 @@
 	)
 	(global_label "LiPo+"
 		(shape output)
-		(at 88.9 34.29 180)
+		(at 97.79 45.72 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6793,7 +6803,7 @@
 		)
 		(uuid "731319f4-8d46-4be4-8f5e-57c5963f8152")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.2905 34.29 0)
+			(at 97.79 54.3295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:voltmeter"
 			(at 49.53 26.67 0)
 			(effects
 				(font
@@ -8010,7 +8020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:5.08mm_capacitor_1"
 			(at 87.3252 82.55 0)
 			(effects
 				(font
@@ -8278,7 +8288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor_3"
 			(at 134.62 55.626 0)
 			(effects
 				(font
@@ -8708,7 +8718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 176.2252 118.11 0)
 			(effects
 				(font
@@ -9317,7 +9327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:LiPo"
 			(at 59.69 38.1 0)
 			(effects
 				(font
@@ -9387,7 +9397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor_3"
 			(at 134.62 69.596 0)
 			(effects
 				(font
@@ -9825,7 +9835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 176.2252 41.91 0)
 			(effects
 				(font
@@ -10230,7 +10240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 176.2252 60.96 0)
 			(effects
 				(font
@@ -10414,10 +10424,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "94d566a9-959c-4b60-b0bb-f79af0455228")
 		(property "Reference" "C8"
-			(at 95.25 30.8609 0)
+			(at 85.598 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,8 +10434,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
-			(at 95.25 33.4009 0)
+		(property "Value" "470uF"
+			(at 80.772 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:5.08mm_capacitor_1"
 			(at 92.4052 36.83 0)
 			(effects
 				(font
@@ -10910,7 +10919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 176.2252 80.01 0)
 			(effects
 				(font
@@ -10980,7 +10989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 176.2252 137.16 0)
 			(effects
 				(font
@@ -11274,7 +11283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 176.2252 99.06 0)
 			(effects
 				(font
@@ -12091,10 +12100,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e49fd736-11d5-4691-b273-2e1b31b1b9b0")
 		(property "Reference" "D2"
-			(at 96.52 30.4799 90)
+			(at 98.806 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12111,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 96.52 33.0199 90)
+			(at 96.012 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
