@@ -7455,7 +7455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:DS-850K-S-ON"
+		(property "Footprint" "robo:voltmeter"
 			(at 22.86 77.47 0)
 			(effects
 				(font
