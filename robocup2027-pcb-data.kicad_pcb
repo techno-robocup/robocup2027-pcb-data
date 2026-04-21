@@ -144,144 +144,6 @@
 	(net 64 "unconnected-(U12-L_VDD-Pad1)")
 	(net 65 "unconnected-(U12-INPB-Pad8)")
 	(net 66 "unconnected-(U12-L_INNA-Pad3)")
-	(footprint "robo:Resister"
-		(layer "F.Cu")
-		(uuid "013fcdb8-9545-44ca-98c1-79b0593fce27")
-		(at 184.5 60.5)
-		(property "Reference" "R1"
-			(at 1.016 -3.81 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a60c61ac-8ce9-4cd6-86e7-9b3fa7a1766f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "8.4k"
-			(at 0.254 3.556 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "28e2f4ef-5767-4d85-9ecb-1e7449acc653")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1.27 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee459a01-0746-4050-aa43-02afff25a765")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 1.27 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed74a369-f21c-4b60-b69d-d5620ad573fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/e8f9c5ba-f319-4c24-a293-e2b9fb282386")
-		(sheetname "/")
-		(sheetfile "robocup2027-pcb-data.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -2.794 0)
-			(end -2.159 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "11e79f14-baa1-4237-afc6-630bed7935a7")
-		)
-		(fp_line
-			(start 2.286 0)
-			(end 2.794 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "7835284f-61c7-4799-ac43-dca67a6c2106")
-		)
-		(fp_rect
-			(start -2.159 -1.016)
-			(end 2.286 1.016)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "5a910141-009d-4251-ab44-271b641fbc1c")
-		)
-		(fp_text user "Ohm"
-			(at -1.778 -1.524 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "10fd141c-2c03-4402-b9d8-ab9507294e91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.27 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "3d464e09-c86d-43b1-a295-7070e3a8df6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -3.81 0)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "+3.3V")
-			(pintype "passive")
-			(uuid "c4c24707-f6fa-48bd-a6b7-3bceb6937cb3")
-		)
-		(pad "1" thru_hole circle
-			(at 3.81 0)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "+3.3V")
-			(pintype "passive")
-			(uuid "7f617aaf-d244-4527-997a-880d572659cd")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "0303bbc6-4bb2-4f6b-9d0e-830002c8428a")
@@ -423,6 +285,144 @@
 			(pinfunction "GPIO")
 			(pintype "output+no_connect")
 			(uuid "1e8c257e-b66f-46ac-a639-219ce6316de7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:Resister"
+		(layer "F.Cu")
+		(uuid "079584e2-d228-4a1f-88b9-adf16698babd")
+		(at 184.19 66.236)
+		(property "Reference" "R3"
+			(at 1.016 -3.81 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f356fc2c-b15b-4ac8-a5d4-2918914624d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0.254 3.556 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "561fdc1f-58dd-4d47-9a61-619673a0efca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2e714f9-4051-4192-a7db-dd6893f2b0d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e792bd4-2b1b-4462-98bc-665f9c6ef829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/d77bc35b-1758-498b-a7ca-48f42b929561")
+		(sheetname "/")
+		(sheetfile "robocup2027-pcb-data.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.794 0)
+			(end -2.159 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "afb55bc7-c4d2-4196-a76d-cf59b74cb935")
+		)
+		(fp_line
+			(start 2.286 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "264d069d-bc78-4982-a62f-022c6db67781")
+		)
+		(fp_rect
+			(start -2.159 -1.016)
+			(end 2.286 1.016)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c8c7abf2-1f42-43e9-b5ae-cf2d79488cac")
+		)
+		(fp_text user "Ohm"
+			(at -1.778 -1.524 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d49cd860-e969-4d36-b185-a06646852160")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "addb8afe-ee6a-4ff4-be9f-6474659ea9d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 0)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 13 "Net-(U1-IO25)")
+			(pintype "passive")
+			(uuid "0077651b-ef83-4726-b361-aa24c634c638")
+		)
+		(pad "2" thru_hole circle
+			(at 3.81 0)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "adcdaf3b-7cba-4e7d-978b-052fb4ee4e88")
 		)
 		(embedded_fonts no)
 	)
@@ -793,14 +793,14 @@
 	)
 	(footprint "robo:Resister"
 		(layer "F.Cu")
-		(uuid "2817c77b-45f6-4140-9df5-70c25a17a872")
-		(at 168.587 78.967)
-		(property "Reference" "R5"
+		(uuid "2c6ef851-3fbc-4a94-b8c1-e970a23aa232")
+		(at 184.19 63.104)
+		(property "Reference" "R2"
 			(at 1.016 -3.81 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1d64a209-2c92-4afa-966f-575bdf859a2d")
+			(uuid "8b506489-6f8b-466d-849d-1f5c63bb57be")
 			(effects
 				(font
 					(size 1 1)
@@ -808,11 +808,11 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "8.4k"
 			(at 0.254 3.556 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5194e225-81a2-4d01-aa26-497e315e5937")
+			(uuid "43dc0129-f83c-45a3-9619-ee163c7f3263")
 			(effects
 				(font
 					(size 1 1)
@@ -825,7 +825,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33acae36-17d4-4b3d-b015-80a9c19596fb")
+			(uuid "3cd57d55-83d6-4e83-8f90-3a26fdf57ce2")
 			(effects
 				(font
 					(size 1 1)
@@ -838,7 +838,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5d883bc-3c10-4b2a-b327-dbbbbd612c6d")
+			(uuid "756d0802-f8fd-4a2f-a331-6a9b92304ac2")
 			(effects
 				(font
 					(size 1 1)
@@ -847,7 +847,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5320fdfb-476b-4147-a64a-f22f669d0785")
+		(path "/47e5d1a0-4dca-4715-b250-1e69faa7de67")
 		(sheetname "/")
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
@@ -859,7 +859,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f3872c8a-c714-49e4-a7e8-7d57bf6d7862")
+			(uuid "ca54aaa5-50b4-42ad-b43b-746ff2ee3268")
 		)
 		(fp_line
 			(start 2.286 0)
@@ -869,7 +869,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5f2b3317-d0b4-43ef-89e8-2124af3cc047")
+			(uuid "8ba30b06-fef0-4b64-97d9-91cc7b8e92ca")
 		)
 		(fp_rect
 			(start -2.159 -1.016)
@@ -880,13 +880,13 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "400a8640-6102-4a7f-8fe9-141fed4df0e2")
+			(uuid "4159b213-b74a-4b9a-8aff-b8e300604cd0")
 		)
 		(fp_text user "Ohm"
 			(at -1.778 -1.524 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3beebfab-4db2-44e0-b57f-20ffa97324bc")
+			(uuid "0ba851c0-57d1-42b8-9369-31c6785643f1")
 			(effects
 				(font
 					(size 1 1)
@@ -899,7 +899,7 @@
 			(at 1.27 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "10da101d-d692-48cd-9211-745dec203e7d")
+			(uuid "d4efbc04-6155-4308-83ba-54080a88c077")
 			(effects
 				(font
 					(size 1 1)
@@ -913,19 +913,19 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "photoresistor_2")
+			(net 1 "+3.3V")
 			(pintype "passive")
-			(uuid "26fb6754-9fbb-4271-acbb-61a8f7080ba5")
+			(uuid "ee8ac217-ea81-4031-842f-e0383d6cc52d")
 		)
-		(pad "1" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 3.81 0)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "photoresistor_2")
+			(net 19 "I2C_SDA")
 			(pintype "passive")
-			(uuid "1bf46b92-cbb6-423a-a75f-a396154deb50")
+			(uuid "221cb07c-21d4-438e-b5e8-f896abaa8115")
 		)
 		(embedded_fonts no)
 	)
@@ -1099,7 +1099,7 @@
 			(at -12 -12)
 			(size 2 2)
 			(drill 3.5)
-			(layers "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "2a852504-1781-46f0-83a7-7dacb678dfbf")
 		)
@@ -1107,7 +1107,7 @@
 			(at -12 12)
 			(size 2 2)
 			(drill 3.5)
-			(layers "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "c0350c08-0106-4982-b4f4-27a3b0c952b8")
 		)
@@ -1115,7 +1115,7 @@
 			(at 0 12.5)
 			(size 2 2)
 			(drill 3.5)
-			(layers "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "87c12449-70bd-454d-9860-96657c56b95b")
 		)
@@ -1123,7 +1123,7 @@
 			(at 12 -12)
 			(size 2 2)
 			(drill 3.5)
-			(layers "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "1942bfe1-c90b-4d52-8e17-0cf1f91b1a9a")
 		)
@@ -1131,7 +1131,7 @@
 			(at 12 12)
 			(size 2 2)
 			(drill 3.5)
-			(layers "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "b09e23d8-8b17-43e9-a10a-a1d0f5f0985b")
 		)
@@ -1673,14 +1673,14 @@
 	)
 	(footprint "robo:Resister"
 		(layer "F.Cu")
-		(uuid "7beab853-aa47-4d1f-b95f-8646359fdc07")
-		(at 184.5 65)
-		(property "Reference" "R2"
+		(uuid "6bf236dd-bc42-469d-b953-f201e66f7289")
+		(at 184.19 72.5)
+		(property "Reference" "R5"
 			(at 1.016 -3.81 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c1169baf-1d07-4ded-ba26-30e3cdac57e8")
+			(uuid "05af3d5d-f248-4fc4-9611-6f77dde45005")
 			(effects
 				(font
 					(size 1 1)
@@ -1688,11 +1688,11 @@
 				)
 			)
 		)
-		(property "Value" "8.4k"
+		(property "Value" "100k"
 			(at 0.254 3.556 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "76df9380-83b0-4792-94d1-8d4b8d477f03")
+			(uuid "94a07ab5-7ea6-4f67-8036-aaa6ee13a19b")
 			(effects
 				(font
 					(size 1 1)
@@ -1705,7 +1705,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8695ec1-80a6-4fab-ba09-7471d080232e")
+			(uuid "97df490c-f7c4-4160-8a25-a0ca383efaaa")
 			(effects
 				(font
 					(size 1 1)
@@ -1718,7 +1718,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7814e7fa-1129-4cbb-8065-19c11a440157")
+			(uuid "c12f87c6-8458-47d8-84cb-0fb487ae4d0d")
 			(effects
 				(font
 					(size 1 1)
@@ -1727,7 +1727,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/47e5d1a0-4dca-4715-b250-1e69faa7de67")
+		(path "/5320fdfb-476b-4147-a64a-f22f669d0785")
 		(sheetname "/")
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
@@ -1739,7 +1739,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5dffcfda-ed20-44aa-82da-5d643873b39d")
+			(uuid "0cf215db-580b-41ac-a91f-c7f12d192767")
 		)
 		(fp_line
 			(start 2.286 0)
@@ -1749,7 +1749,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "21b70036-af02-447c-8bb3-ccf448e12a3a")
+			(uuid "987be773-e7db-4b5d-b3b5-981890f474e4")
 		)
 		(fp_rect
 			(start -2.159 -1.016)
@@ -1760,13 +1760,13 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "d6546bd8-c909-4de4-9c09-095b5ed16739")
+			(uuid "ff1cfed1-0b9e-45f5-84f1-702fd24d826f")
 		)
 		(fp_text user "Ohm"
 			(at -1.778 -1.524 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b49ef7b3-0b75-40b4-98d5-6d5c64f22477")
+			(uuid "639f3dbd-2415-455e-a863-e408347052d9")
 			(effects
 				(font
 					(size 1 1)
@@ -1779,7 +1779,7 @@
 			(at 1.27 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6a0a5152-6b1b-4dd1-bd46-6e2169d2e3b7")
+			(uuid "228b6339-6f13-4e7f-aafd-ec698456cb59")
 			(effects
 				(font
 					(size 1 1)
@@ -1793,19 +1793,19 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "+3.3V")
+			(net 12 "photoresistor_2")
 			(pintype "passive")
-			(uuid "05143a50-7c12-4109-b7fb-20eccbe32b3a")
+			(uuid "90b19cc7-a6b5-47bc-bfa3-4ea3fe04ab21")
 		)
-		(pad "1" thru_hole circle
+		(pad "2" thru_hole circle
 			(at 3.81 0)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "+3.3V")
+			(net 2 "GND")
 			(pintype "passive")
-			(uuid "9d346619-c8d3-45fe-91f8-6a6621abecbb")
+			(uuid "e45744b9-4afb-428d-9909-a726ec68c066")
 		)
 		(embedded_fonts no)
 	)
@@ -1901,6 +1901,144 @@
 			(net 2 "GND")
 			(pintype "passive")
 			(uuid "d6575d83-bd64-4552-b6c8-b58af36e157b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:Resister"
+		(layer "F.Cu")
+		(uuid "88a1b49d-150b-40b8-b840-2f38ecede9b8")
+		(at 184.19 59.972)
+		(property "Reference" "R1"
+			(at 1.016 -3.81 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "746d8821-ec66-4ec7-836b-d4f5c2b82939")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "8.4k"
+			(at 0.254 3.556 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cadaa63e-2f04-4601-a69c-f4db92571a0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "297016c6-139d-4a6a-b4c4-f310fd50ffd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fba0f26-06e4-49ce-ab5e-332f9577a7c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/e8f9c5ba-f319-4c24-a293-e2b9fb282386")
+		(sheetname "/")
+		(sheetfile "robocup2027-pcb-data.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.794 0)
+			(end -2.159 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "70f17733-5950-4c8d-bac7-e5ff4a270074")
+		)
+		(fp_line
+			(start 2.286 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d7da994e-3eea-4ad1-8345-0189ada8731f")
+		)
+		(fp_rect
+			(start -2.159 -1.016)
+			(end 2.286 1.016)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "5dad7790-1341-4808-8ff8-c4b45fc89d49")
+		)
+		(fp_text user "Ohm"
+			(at -1.778 -1.524 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8542b610-3f72-449c-ba10-ccd4a8f7a851")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6150d8e9-102f-4f4f-a278-83ae9f1967e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 0)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "+3.3V")
+			(pintype "passive")
+			(uuid "64786779-b248-45e6-bace-39c8b4224d49")
+		)
+		(pad "2" thru_hole circle
+			(at 3.81 0)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 22 "I2C_SCL")
+			(pintype "passive")
+			(uuid "5ac99bbd-77ab-4fa5-9747-408f9a925200")
 		)
 		(embedded_fonts no)
 	)
@@ -4602,144 +4740,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "robo:Resister"
-		(layer "F.Cu")
-		(uuid "b631a1db-b86c-4a07-8e46-21b4158028c8")
-		(at 168.587 75.835)
-		(property "Reference" "R4"
-			(at 1.016 -3.81 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cd67b823-aae4-4491-a4af-16f4a2784b52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 0.254 3.556 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "6a8e31ba-91e7-4461-ab4c-804683054106")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1.27 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6808f57-9dd1-4069-aec0-a702629f3f6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 1.27 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e04b8e7-8682-4a9f-8912-e7f2a8666f76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/05302eed-5689-4277-bc56-c068217b9fa4")
-		(sheetname "/")
-		(sheetfile "robocup2027-pcb-data.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -2.794 0)
-			(end -2.159 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "759d41ce-dbf6-4fc5-80d9-7bf429537ec2")
-		)
-		(fp_line
-			(start 2.286 0)
-			(end 2.794 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "b58381cd-e0e0-4ab6-8356-62db2457cce7")
-		)
-		(fp_rect
-			(start -2.159 -1.016)
-			(end 2.286 1.016)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "951d5da7-7c7e-42cd-82de-f5f415ae5af9")
-		)
-		(fp_text user "Ohm"
-			(at -1.778 -1.524 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "a3b4e89a-5567-4a18-a26c-67ec6c70cf54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.27 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8f65ae18-b367-4d55-8f33-e3d764d69d7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -3.81 0)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "photoresistor_1")
-			(pintype "passive")
-			(uuid "315269d5-156d-4b52-a2e2-3f94bfa6576f")
-		)
-		(pad "1" thru_hole circle
-			(at 3.81 0)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 11 "photoresistor_1")
-			(pintype "passive")
-			(uuid "85050e40-da66-4da4-8635-60d5f1afb417")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "bba94202-0b02-40e4-86cf-15ae12229240")
@@ -4976,6 +4976,144 @@
 			(pinfunction "GPIO")
 			(pintype "output+no_connect")
 			(uuid "a4424ba1-3729-4f69-a8a7-9e4c3650d2c5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:Resister"
+		(layer "F.Cu")
+		(uuid "c3b2f7b8-95bf-4249-bb32-dba2c6c21ecf")
+		(at 184.19 69.368)
+		(property "Reference" "R4"
+			(at 1.016 -3.81 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "764d1707-747c-438c-99c1-2297eb3d1441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0.254 3.556 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d49fe7c1-f702-478d-9392-c6606ebe05cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b0e056b-e03c-4e15-afa7-127879f98270")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 1.27 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a817629f-a8e4-4263-b074-d5d3610f0f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/05302eed-5689-4277-bc56-c068217b9fa4")
+		(sheetname "/")
+		(sheetfile "robocup2027-pcb-data.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.794 0)
+			(end -2.159 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cd73fcf2-5d55-423f-a2bb-16c79d9ec3d1")
+		)
+		(fp_line
+			(start 2.286 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7816098b-ddb7-46e8-b3cd-59e3d1a1a097")
+		)
+		(fp_rect
+			(start -2.159 -1.016)
+			(end 2.286 1.016)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9ce8ced8-1cb3-47d7-9ddd-1816f6caa801")
+		)
+		(fp_text user "Ohm"
+			(at -1.778 -1.524 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f9cd3ffd-529a-424d-9eb8-d28a8c08cd5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d16abafb-60e0-45a8-ae32-ace68c855e4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 0)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "photoresistor_1")
+			(pintype "passive")
+			(uuid "aef8e63b-2670-48e1-b4f9-6cbfbbeb3040")
+		)
+		(pad "2" thru_hole circle
+			(at 3.81 0)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "5cc46acb-1091-45b7-9b40-a01bb142b64f")
 		)
 		(embedded_fonts no)
 	)
@@ -5482,144 +5620,6 @@
 			(pintype "passive")
 			(thermal_bridge_angle 45)
 			(uuid "25325761-2933-40a6-a30f-5e5a6dd73798")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "robo:Resister"
-		(layer "F.Cu")
-		(uuid "dbe7392f-33f2-4c13-b566-486867226bd6")
-		(at 168.587 71.5)
-		(property "Reference" "R3"
-			(at 1.016 -3.81 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a41452f1-768a-4e94-a2fb-948a5ec563dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 0.254 3.556 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "02862f87-154f-4c96-af7b-0a2fc7156b3d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1.27 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b41e7c01-0c97-4ac6-bd1c-3211ccc09d40")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 1.27 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfc40698-f1a4-448a-9825-af9312b85b91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/d77bc35b-1758-498b-a7ca-48f42b929561")
-		(sheetname "/")
-		(sheetfile "robocup2027-pcb-data.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -2.794 0)
-			(end -2.159 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "3f0c3197-518a-4f60-a74e-4e47b2636e4b")
-		)
-		(fp_line
-			(start 2.286 0)
-			(end 2.794 0)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ed49df32-fe5d-4bf3-b482-551e80f5e630")
-		)
-		(fp_rect
-			(start -2.159 -1.016)
-			(end 2.286 1.016)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "ac533d48-339b-4010-9ae1-788449d80bf6")
-		)
-		(fp_text user "Ohm"
-			(at -1.778 -1.524 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "df5bfa9c-d046-437d-8014-5a85ec21b99b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.27 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "069bf728-41dd-4c31-9f1d-f5b08732bddb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -3.81 0)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 13 "Net-(U1-IO25)")
-			(pintype "passive")
-			(uuid "9b3beb26-8aa4-45fd-be1c-af1543ecb401")
-		)
-		(pad "1" thru_hole circle
-			(at 3.81 0)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 13 "Net-(U1-IO25)")
-			(pintype "passive")
-			(uuid "6f8009c2-a7e9-4c20-a8a7-587d1718ffcb")
 		)
 		(embedded_fonts no)
 	)
