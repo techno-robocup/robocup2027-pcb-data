@@ -7237,7 +7237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:Resister"
 			(at 235.712 48.26 90)
 			(effects
 				(font
@@ -8648,7 +8648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:Resister"
 			(at 143.002 128.27 90)
 			(effects
 				(font
@@ -9123,7 +9123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:5.08mm_capacitor_1"
 			(at 48.26 36.322 90)
 			(effects
 				(font
@@ -9193,7 +9193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:Resister"
 			(at 242.062 59.69 90)
 			(effects
 				(font
@@ -11882,7 +11882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:Resister"
 			(at 84.582 163.83 90)
 			(effects
 				(font
@@ -12207,7 +12207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:Resister"
 			(at 150.622 124.46 90)
 			(effects
 				(font
