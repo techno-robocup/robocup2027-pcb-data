@@ -10645,7 +10645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:M78AR033"
 			(at 101.6 36.83 0)
 			(effects
 				(font
