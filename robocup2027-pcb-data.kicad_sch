@@ -7373,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:VL53L1X-ToF"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -9470,7 +9470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:VL53L1X-ToF"
 			(at 203.2 40.64 0)
 			(effects
 				(font
@@ -11952,7 +11952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:VL53L1X-ToF"
 			(at 203.2 59.69 0)
 			(effects
 				(font
@@ -12343,7 +12343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:VL53L1X-ToF"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -12425,7 +12425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:VL53L1X-ToF"
 			(at 203.2 97.79 0)
 			(effects
 				(font
@@ -12507,7 +12507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:VL53L1X-ToF"
 			(at 203.2 135.89 0)
 			(effects
 				(font
