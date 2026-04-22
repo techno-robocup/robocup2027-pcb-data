@@ -8020,7 +8020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:5.08mm_capacitor_1"
+		(property "Footprint" "robo:capacitor"
 			(at 87.3252 82.55 0)
 			(effects
 				(font
@@ -8989,7 +8989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 247.904 47.752 0)
 			(effects
 				(font
@@ -10374,7 +10374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+		(property "Footprint" "robo:2.54mm_capacitor"
 			(at 247.904 64.262 0)
 			(effects
 				(font
@@ -10443,7 +10443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:5.08mm_capacitor_1"
+		(property "Footprint" "robo:capacitor"
 			(at 92.4052 36.83 0)
 			(effects
 				(font
@@ -10645,7 +10645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:M78AR033"
+		(property "Footprint" "robo:DCDC-M78AR033-0.5"
 			(at 101.6 36.83 0)
 			(effects
 				(font
