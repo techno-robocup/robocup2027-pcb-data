@@ -2277,42 +2277,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -1.27 6.35 270)
-					(length 2.54)
-					(name "Sw-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 6.35 270)
-					(length 2.54)
-					(name "Sw+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 10.16 1.27 180)
 					(length 2.54)
@@ -3751,60 +3715,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 13.97 3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "V1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -3.81 180)
-					(length 2.54)
-					(name "Sig"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -4700,10 +4610,6 @@
 		(uuid "108362cd-c7f8-4391-8513-25c1897d421d")
 	)
 	(no_connect
-		(at 64.77 69.85)
-		(uuid "1b5f1e9a-0d85-4b8f-bf1d-73c3ce133234")
-	)
-	(no_connect
 		(at 255.27 104.14)
 		(uuid "1cd83912-7b8a-4b96-af17-fef0c2540d31")
 	)
@@ -4718,10 +4624,6 @@
 	(no_connect
 		(at 200.66 142.24)
 		(uuid "22004112-3f78-4918-829e-4251d2e58b2f")
-	)
-	(no_connect
-		(at 328.93 31.75)
-		(uuid "2363eb4b-88be-4afe-aad1-1ef19179dfd1")
 	)
 	(no_connect
 		(at 134.62 140.97)
@@ -4754,10 +4656,6 @@
 	(no_connect
 		(at 200.66 66.04)
 		(uuid "503cb107-a98c-4b0c-8d86-398fc082c52b")
-	)
-	(no_connect
-		(at 67.31 69.85)
-		(uuid "512c7412-43c4-4e02-9f82-efd0c1265efe")
 	)
 	(no_connect
 		(at 231.14 92.71)
@@ -4802,10 +4700,6 @@
 	(no_connect
 		(at 134.62 133.35)
 		(uuid "8d18c06b-6427-4057-b932-d05756bef7a5")
-	)
-	(no_connect
-		(at 328.93 35.56)
-		(uuid "90ee07ed-0b85-4904-8a67-1656b8e03c16")
 	)
 	(no_connect
 		(at 134.62 166.37)
@@ -4858,10 +4752,6 @@
 	(no_connect
 		(at 231.14 130.81)
 		(uuid "c59cea51-f414-4388-a917-6e16a2a35d2c")
-	)
-	(no_connect
-		(at 328.93 39.37)
-		(uuid "c8620bb6-4148-4ff3-91a2-d9264ad2a39c")
 	)
 	(no_connect
 		(at 312.42 60.96)
@@ -9000,6 +8890,85 @@
 		)
 	)
 	(symbol
+		(lib_id "robo:fe-urt-2")
+		(at 314.96 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c30ec9-0bd7-4665-8fc3-454909c852a7")
+		(property "Reference" "U13"
+			(at 327.66 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 327.66 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bab842d8-7c23-42d1-904f-d5e9117e9a37")
+		)
+		(pin "5"
+			(uuid "d0a6763e-15e9-4f13-9d9d-239e8c64b81b")
+		)
+		(pin "4"
+			(uuid "e454c4d3-5754-4ece-8e7c-5962f6e9f748")
+		)
+		(pin "2"
+			(uuid "e8038ea2-faac-4dca-b90f-fa93f1276648")
+		)
+		(pin "3"
+			(uuid "7e88b104-2288-47d4-9de2-39baa107b4f5")
+		)
+		(instances
+			(project "robocup2027-pcb-data"
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 138.43 123.19 0)
 		(unit 1)
@@ -10825,86 +10794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "robo:DCDC-LTC3111")
-		(at 66.04 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "766a0614-1b0f-44c2-b760-f2c0e3005950")
-		(property "Reference" "U14"
-			(at 66.675 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 66.675 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "robo:DCDC-LTC3111"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "63ff5b2c-af0d-49e3-9deb-03c81a0f4fad")
-		)
-		(pin "4"
-			(uuid "6424cfa0-c32a-40bf-8d5c-a2fa2fe5d1e5")
-		)
-		(pin "2"
-			(uuid "28ab6b78-c0b8-487a-bacc-8102f704bedf")
-		)
-		(pin "1"
-			(uuid "7ee75472-f154-4011-94e7-78eda0c39019")
-		)
-		(pin "3"
-			(uuid "334a8e2d-d254-43e9-87f1-f49bf60ef8b0")
-		)
-		(pin "6"
-			(uuid "09ea9928-5f1f-4b33-9f47-e1c964631647")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 76.2 0)
 		(unit 1)
@@ -11775,92 +11664,6 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "robo:fe-urt-2")
-		(at 314.96 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a802748b-2b4e-47cc-b826-48fbd7783979")
-		(property "Reference" "U13"
-			(at 318.135 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 318.135 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "robo:fe-urt-2"
-			(at 314.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "6517c275-7163-4e11-a852-007121bd6cfe")
-		)
-		(pin "5"
-			(uuid "a7ac3584-60de-4235-914c-103929fad2dd")
-		)
-		(pin "6"
-			(uuid "c46fbe7b-883d-4bcc-9d73-aeb1e0bb0931")
-		)
-		(pin "2"
-			(uuid "7ce6138b-46c2-45b8-b787-66b5516decd5")
-		)
-		(pin "1"
-			(uuid "45357db6-7b54-4c09-ba5b-72f0717dad25")
-		)
-		(pin "7"
-			(uuid "9dfc94fd-1488-4adb-9749-d13da0ed433c")
-		)
-		(pin "4"
-			(uuid "e048b007-9f58-4bc7-b51d-43970ac50c56")
-		)
-		(pin "3"
-			(uuid "daa628ee-4791-4f38-a94e-14ddec83ef10")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -12970,6 +12773,80 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:DCDC-LTC3111")
+		(at 66.04 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d025eb5e-3c4f-4850-9530-8a7542716ece")
+		(property "Reference" "U11"
+			(at 66.675 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 66.675 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robo:DCDC-LTC3111"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ea9f721-c38f-476d-aeb5-e770c2461383")
+		)
+		(pin "4"
+			(uuid "bea8a442-79f7-48ab-b065-9aa0624bda72")
+		)
+		(pin "2"
+			(uuid "efd9cb2a-f4dc-4a09-97ba-b88a1f837875")
+		)
+		(pin "1"
+			(uuid "c090b82e-45dc-4164-a688-b04a27e710fe")
+		)
+		(instances
+			(project "robocup2027-pcb-data"
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "U11")
 					(unit 1)
 				)
 			)
