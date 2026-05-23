@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "robocup2027-pcb-data.step",
       "svg": "",
       "vrml": ""
     },
