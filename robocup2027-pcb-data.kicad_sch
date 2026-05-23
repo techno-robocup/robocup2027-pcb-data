@@ -8917,7 +8917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:fe-urt-2"
 			(at 314.96 35.56 0)
 			(effects
 				(font
