@@ -247,7 +247,7 @@
 		(property "Reference" "U1"
 			(at -6.0325 -32.0675 0)
 			(layer "F.SilkS")
-			(uuid "bb096dd6-f60b-47b9-8653-00e06586ae3b")
+			(uuid "f6cf14cb-c12c-4dd9-ba01-b30a18585caa")
 			(effects
 				(font
 					(size 1 1)
@@ -258,7 +258,7 @@
 		(property "Value" "ESP32-DEVKITC-32E"
 			(at 1.27 25.0825 0)
 			(layer "F.Fab")
-			(uuid "401400b5-ee52-46df-b101-77a1355eb33f")
+			(uuid "dc835aa6-1ff2-4562-b54a-120230e9697c")
 			(effects
 				(font
 					(size 1 1)
@@ -270,7 +270,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db074a75-2b0d-4ca8-922c-de4fd34d23bd")
+			(uuid "f8c67f92-5e3c-4ece-bab4-d9cf91449bef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +282,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e173f3b0-82f4-4e95-a4f9-a2a69de89ebe")
+			(uuid "76360e95-1efb-4841-af28-4c673283a1fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,9 +2035,9 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "18c4c27c-0111-4c35-ac2f-f6a30f037a6e")
-		(at 96.77 108.58)
+		(at 92.85 94.35 90)
 		(property "Reference" "C4"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d13bf955-47ef-4b07-bae8-f8ba2b8f9df1")
@@ -2049,7 +2049,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "645cba03-c012-425d-b129-826c6463fb61")
@@ -2061,7 +2061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2074,7 +2074,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2092,7 +2092,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "80ed36ed-8f7e-418d-96b0-9a006786dcae")
@@ -2104,7 +2104,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -2115,7 +2115,7 @@
 			(uuid "b6f2e7e8-3dc0-4060-8654-e204d4c5a2b6")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -2130,12 +2130,12 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "1f653534-c4d0-4d38-b071-3da54f1cb5b6")
-		(at 96.77 104.04)
+		(at 92.85 52.23 90)
 		(property "Reference" "C1"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "81ad09ad-fd26-46d1-b182-8822f2dc73e2")
+			(uuid "818de28e-6d71-46de-9207-bebb0d49d3c8")
 			(effects
 				(font
 					(size 1 1)
@@ -2144,10 +2144,10 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8f3a93d9-bcc3-4b73-a342-c7e38b149a77")
+			(uuid "b00111fc-f204-4d72-bb53-50b40d1ff50d")
 			(effects
 				(font
 					(size 1 1)
@@ -2156,11 +2156,11 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5cb88c9-1d35-41b4-bf1c-4297e6331445")
+			(uuid "cc851822-ea83-4732-87b3-05c963fa750a")
 			(effects
 				(font
 					(size 1 1)
@@ -2169,11 +2169,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5aa3ea3-d3e8-4680-b5bf-ca84ece855ec")
+			(uuid "cd0545a3-1a90-4481-b258-caf2ff614659")
 			(effects
 				(font
 					(size 1 1)
@@ -2187,7 +2187,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c66a108b-7ed9-424b-af28-c2a869e536ff")
@@ -2199,7 +2199,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -2210,7 +2210,7 @@
 			(uuid "5c6c488d-134c-4d44-a6ce-a3bb3b9905cb")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -2225,7 +2225,7 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "2140313b-ac3f-4d09-b934-d48a3e17f7f6")
-		(at 96.77 117.66)
+		(at 115 145.85)
 		(property "Reference" "C9"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2320,9 +2320,9 @@
 	(footprint "robo:Resister"
 		(layer "F.Cu")
 		(uuid "21491f3c-6cde-4054-acf3-c7982a876b30")
-		(at 138.467 56.51 180)
+		(at 136.5 60 90)
 		(property "Reference" "R2"
-			(at 1.016 -3.81 180)
+			(at 1.016 -3.81 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(property "Value" "8.4k"
-			(at 0.254 3.556 180)
+			(at 0.254 3.556 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "25bbe684-0cd0-45e6-bb59-fc9a63e5b3ec")
@@ -2347,7 +2347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1.27 0 180)
+			(at 1.27 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2360,7 +2360,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 1.27 0 180)
+			(at 1.27 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2409,7 +2409,7 @@
 			(uuid "2dae2db4-cf1d-4c7b-8a38-a0a7e21a9cc0")
 		)
 		(fp_text user "Ohm"
-			(at -1.778 -1.524 180)
+			(at -1.778 -1.524 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1212ff23-90dd-4718-adce-c8a92ca6e1ce")
@@ -2422,7 +2422,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2.5 180)
+			(at 1.27 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "91077bbe-ed44-4d50-b96a-a0f72ab6562b")
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -3.81 0 180)
+			(at -3.81 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2444,7 +2444,7 @@
 			(uuid "0e8517d7-0da5-4eed-b36c-3ce55e2eda34")
 		)
 		(pad "2" thru_hole circle
-			(at 3.81 0 180)
+			(at 3.81 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2458,7 +2458,7 @@
 	(footprint "robo:sts3032"
 		(layer "F.Cu")
 		(uuid "250da0d0-1379-4d1c-b1ad-15c775b602d5")
-		(at 105.225 127.968)
+		(at 134 38)
 		(property "Reference" "M1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2722,7 +2722,7 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "2a011f66-007e-4403-bf3d-a644fe9da9ca")
-		(at 107.27 117.81)
+		(at 125.5 146)
 		(property "Reference" "U15"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2866,12 +2866,12 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "2d36d55c-6df9-4ce7-a572-0ab3a66b4534")
-		(at 107.27 104.19)
+		(at 93 41.73 90)
 		(property "Reference" "U5"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c574d98d-f342-4aa0-bfb0-4f66b87dc12a")
+			(uuid "daa5c72c-3a6b-4fb0-83ca-0e92b79184e6")
 			(effects
 				(font
 					(size 1 1)
@@ -2880,10 +2880,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3ffdb0f3-aa50-4f34-97b6-5de9fd209b78")
+			(uuid "c9814665-d403-4a47-8b2e-6deda3abeb6a")
 			(effects
 				(font
 					(size 1 1)
@@ -2892,11 +2892,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fad2cd6-1f0b-4509-84ca-7f1b7c202bc9")
+			(uuid "b7eaf2c1-21de-4d4b-a9f6-cb272344eb7a")
 			(effects
 				(font
 					(size 1 1)
@@ -2905,11 +2905,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32ec4dfb-b2fd-4868-a313-7dad655c459c")
+			(uuid "65007673-6d3c-448c-b299-3c2f6c8c19c9")
 			(effects
 				(font
 					(size 1 1)
@@ -2922,7 +2922,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "84cf1f25-7200-4bfa-94ba-b63a080c593f")
@@ -2934,7 +2934,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -6.35 0)
+			(at -6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2946,7 +2946,7 @@
 			(uuid "ed06c447-f8c7-47a4-86ee-a1850a74b59a")
 		)
 		(pad "2" thru_hole roundrect
-			(at -3.81 0)
+			(at -3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2958,7 +2958,7 @@
 			(uuid "96b24e7b-dea2-4646-8f85-40f636d2b748")
 		)
 		(pad "3" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2970,7 +2970,7 @@
 			(uuid "340663bd-30df-449a-a427-ce7cba0acbc6")
 		)
 		(pad "4" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2982,7 +2982,7 @@
 			(uuid "ff2ca9e1-c8c0-4003-902d-a41162e5318a")
 		)
 		(pad "5" thru_hole roundrect
-			(at 3.81 0)
+			(at 3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2994,7 +2994,7 @@
 			(uuid "091f06a8-06ca-4f78-b6f2-aeb4bbeefbad")
 		)
 		(pad "6" thru_hole roundrect
-			(at 6.35 0)
+			(at 6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3624,7 +3624,7 @@
 	(footprint "robo:fe-urt-2"
 		(layer "F.Cu")
 		(uuid "4b168935-0603-436a-99f3-3b5596be888f")
-		(at 106.082 145.868)
+		(at 103 123)
 		(property "Reference" "U13"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3756,9 +3756,9 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "62e5aeda-de89-4d85-a5b6-6a3739c0b5c3")
-		(at 107.27 108.73)
+		(at 93 83.85 90)
 		(property "Reference" "U7"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cba9daa6-2550-4f83-a5bc-3df47cc0db5e")
@@ -3770,7 +3770,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1d4a4a31-1f89-487f-ac05-4efd33dd65c6")
@@ -3782,7 +3782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3795,7 +3795,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3812,7 +3812,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c0f04157-1363-49f9-9bec-f973ea17868e")
@@ -3824,7 +3824,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -6.35 0)
+			(at -6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3836,7 +3836,7 @@
 			(uuid "d803bc98-9877-4288-b690-16c284c020e5")
 		)
 		(pad "2" thru_hole roundrect
-			(at -3.81 0)
+			(at -3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3848,7 +3848,7 @@
 			(uuid "b94e256e-f988-41b8-ab69-2866cabd7ee5")
 		)
 		(pad "3" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3860,7 +3860,7 @@
 			(uuid "d5973ea4-733f-40f5-99ea-23f92431a712")
 		)
 		(pad "4" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3872,7 +3872,7 @@
 			(uuid "7db8f3d2-d669-4985-96b7-86006212de25")
 		)
 		(pad "5" thru_hole roundrect
-			(at 3.81 0)
+			(at 3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3884,7 +3884,7 @@
 			(uuid "29dd9781-46e4-44a9-a8b0-fabaa79d2ca2")
 		)
 		(pad "6" thru_hole roundrect
-			(at 6.35 0)
+			(at 6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3900,7 +3900,7 @@
 	(footprint "robo:capacitor"
 		(layer "F.Cu")
 		(uuid "63ae339b-599f-486d-9c27-b0aa44438d42")
-		(at 98 96)
+		(at 166 90)
 		(property "Reference" "C8"
 			(at 0 -3.6 0)
 			(unlocked yes)
@@ -4014,9 +4014,9 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "672e710a-8b1a-4b25-a921-6df9432fece6")
-		(at 107.27 111)
+		(at 93 104.85 90)
 		(property "Reference" "U8"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "174e1310-52b8-4381-8241-cde12cbf39bd")
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b1441cd8-6b49-4748-b35b-df3befbcb2c1")
@@ -4040,7 +4040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4070,7 +4070,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8e6b0378-a489-4c45-aa06-37338598cbb1")
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -6.35 0)
+			(at -6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4094,7 +4094,7 @@
 			(uuid "ec14a9b3-8536-4833-8112-a383f672eacd")
 		)
 		(pad "2" thru_hole roundrect
-			(at -3.81 0)
+			(at -3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4106,7 +4106,7 @@
 			(uuid "b4942562-b3ee-425f-bffd-bcadba3b84fa")
 		)
 		(pad "3" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4118,7 +4118,7 @@
 			(uuid "d724e24f-101e-4e42-b40f-11cec05047ab")
 		)
 		(pad "4" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4130,7 +4130,7 @@
 			(uuid "235114b2-c74a-40b7-9266-e51c6bb62a16")
 		)
 		(pad "5" thru_hole roundrect
-			(at 3.81 0)
+			(at 3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4142,7 +4142,7 @@
 			(uuid "c20017cc-c393-43b1-a4e6-aa5b849d3716")
 		)
 		(pad "6" thru_hole roundrect
-			(at 6.35 0)
+			(at 6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4158,9 +4158,9 @@
 	(footprint "robo:5.08mm_capacitor_1"
 		(layer "F.Cu")
 		(uuid "7012b65d-3863-4bb9-b9ef-fbdb0e5fd6e7")
-		(at 118.342 145.103)
+		(at 147.5 138 90)
 		(property "Reference" "F1"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8ea26ccf-8078-447d-93e6-34cc1c01e782")
@@ -4172,7 +4172,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c3c232e5-7a04-4e4a-9bae-e8b0675f2ed1")
@@ -4184,7 +4184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4215,7 +4215,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4b1414c3-14f3-4664-912a-a9cb0d2e816b")
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.54 0)
+			(at -2.54 0 90)
 			(size 2.54 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -4238,7 +4238,7 @@
 			(uuid "f67ef2bb-9202-4785-b9fc-fbf2ad68dbc2")
 		)
 		(pad "2" thru_hole roundrect
-			(at 2.54 0)
+			(at 2.54 0 90)
 			(size 2.54 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -4253,7 +4253,7 @@
 	(footprint "robo:sts3032"
 		(layer "F.Cu")
 		(uuid "743c784c-0577-4f10-bfd6-d72783ca4bb6")
-		(at 105.225 134.778)
+		(at 164.04 38)
 		(property "Reference" "M4"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -4469,9 +4469,9 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "82919645-5b86-4089-bf9b-c74b640fad5d")
-		(at 96.77 110.85)
+		(at 92.85 115.35 90)
 		(property "Reference" "C5"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "583979d5-2708-4087-ab7e-1c9d1645a9c6")
@@ -4483,7 +4483,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c3ea01f5-354b-440b-bf69-2a27e3ef0bfe")
@@ -4495,7 +4495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4508,7 +4508,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4526,7 +4526,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a553e431-df92-4010-8f55-9ca13c8a0c76")
@@ -4538,7 +4538,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -4549,7 +4549,7 @@
 			(uuid "dd2d01af-b358-40e6-9a21-b7938555f2b6")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -4756,7 +4756,7 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "8670c935-4f0b-4f30-bbea-50d46bea2581")
-		(at 96.77 115.39)
+		(at 93.5 145.85)
 		(property "Reference" "C7"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -4989,9 +4989,9 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "8a8cd4bd-c3a8-4280-8d43-da348e4a6fc3")
-		(at 107.27 113.27)
+		(at 93 125.81 90)
 		(property "Reference" "U9"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "91b10752-200d-4526-b09e-565fa0afd62b")
@@ -5003,7 +5003,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7c875d57-9f75-48ff-aefc-f0446dc9b744")
@@ -5015,7 +5015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5028,7 +5028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5045,7 +5045,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "31121898-06c5-4000-be78-7f68a5b761f8")
@@ -5057,7 +5057,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -6.35 0)
+			(at -6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5069,7 +5069,7 @@
 			(uuid "94bea1f3-9d9f-42c2-bd00-5036ea88738d")
 		)
 		(pad "2" thru_hole roundrect
-			(at -3.81 0)
+			(at -3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5081,7 +5081,7 @@
 			(uuid "54059c38-3fc5-4013-8c81-a54288e5d143")
 		)
 		(pad "3" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5093,7 +5093,7 @@
 			(uuid "6334d9e9-d0f5-4763-ad58-2932ab09804c")
 		)
 		(pad "4" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5105,7 +5105,7 @@
 			(uuid "d8c17332-dc0c-4d5c-b47d-5f5d04cea76b")
 		)
 		(pad "5" thru_hole roundrect
-			(at 3.81 0)
+			(at 3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5117,7 +5117,7 @@
 			(uuid "b2c41ef2-7d39-4ab9-945c-e55ca4a77a2b")
 		)
 		(pad "6" thru_hole roundrect
-			(at 6.35 0)
+			(at 6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5424,12 +5424,12 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "96678e6d-3064-441b-91c4-4dd52a48cd64")
-		(at 96.77 106.31)
+		(at 92.85 73.27 90)
 		(property "Reference" "C3"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "79048366-0116-40d5-be5f-8a7c0dd0c756")
+			(uuid "c147991f-97a4-45da-aa07-7d3e6e0be2d8")
 			(effects
 				(font
 					(size 1 1)
@@ -5438,10 +5438,10 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "97e3e318-3221-4d9e-9ebc-67ed91001278")
+			(uuid "b999efe5-7aa9-439e-aff0-1ce288326c9a")
 			(effects
 				(font
 					(size 1 1)
@@ -5450,11 +5450,11 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d9f025b-1f0f-4209-aa60-a63bd1f803f3")
+			(uuid "a10a8293-34a9-4297-9ec2-404502c4d616")
 			(effects
 				(font
 					(size 1 1)
@@ -5463,11 +5463,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fd2a122-a461-4404-85c9-ea3de220c770")
+			(uuid "36b8dc5a-329b-4632-8111-35019ecc532e")
 			(effects
 				(font
 					(size 1 1)
@@ -5481,7 +5481,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "dcb9e014-a99f-46c1-bac3-ec90795f4eb4")
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -5504,7 +5504,7 @@
 			(uuid "5e001e5b-b3f8-41d6-8e8b-770ccc53fa81")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -5519,7 +5519,7 @@
 	(footprint "robo:sts3032"
 		(layer "F.Cu")
 		(uuid "982356b8-37a4-4da6-82c8-744db32035f6")
-		(at 105.225 130.238)
+		(at 144 38)
 		(property "Reference" "M2"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -5900,7 +5900,7 @@
 	(footprint "robo:capacitor"
 		(layer "F.Cu")
 		(uuid "a15498e2-d606-41f2-a0fd-b627f2f10dff")
-		(at 155 52.5 180)
+		(at 166 78 180)
 		(property "Reference" "C2"
 			(at 0 -3.6 180)
 			(unlocked yes)
@@ -6014,7 +6014,7 @@
 	(footprint "robo:DCDC-LTC3111"
 		(layer "F.Cu")
 		(uuid "aeed5750-5568-42f2-8e59-f40267a6a140")
-		(at 154.5 76)
+		(at 155 56.5)
 		(property "Reference" "U11"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -6266,7 +6266,7 @@
 	(footprint "robo:sts3032"
 		(layer "F.Cu")
 		(uuid "b4c1e151-4694-4fa5-aef3-cec2607a5002")
-		(at 105.225 132.508)
+		(at 154.04 38)
 		(property "Reference" "M3"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -6756,9 +6756,9 @@
 	(footprint "robo:2.54mm_capacitor"
 		(layer "F.Cu")
 		(uuid "d72df079-653b-4f78-a368-2f714b8330c5")
-		(at 96.77 113.12)
+		(at 92.85 136.31 90)
 		(property "Reference" "C6"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9a4999fb-ab46-49ca-9bd1-99ea0c85b041")
@@ -6770,7 +6770,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f3bb99d3-f47d-4815-a13c-b7f1147cc0d7")
@@ -6782,7 +6782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6795,7 +6795,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6813,7 +6813,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "89cb8f93-3524-42af-bd6b-a21362590ece")
@@ -6825,7 +6825,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -6836,7 +6836,7 @@
 			(uuid "ab67fde6-bd39-40ae-ac1f-e40567849fdc")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.27 1.27)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -7043,12 +7043,12 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "ddf451c0-b38b-4cfc-9c20-a2e7ac73213b")
-		(at 107.27 106.46)
+		(at 93 62.77 90)
 		(property "Reference" "U6"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "cc9d59ee-5106-4968-9860-f224fef204a1")
+			(uuid "c0546368-c5d2-4bb9-bc78-d4c6b87ca8c8")
 			(effects
 				(font
 					(size 1 1)
@@ -7057,10 +7057,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8b9fc77b-f205-439f-85a2-15edc8f90f8b")
+			(uuid "7bb148d0-3424-4886-a754-1e5f773e72a7")
 			(effects
 				(font
 					(size 1 1)
@@ -7069,11 +7069,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df803618-27d5-41c3-bb7f-61ed9c966f63")
+			(uuid "7039bf04-dd94-4df9-bc00-8f02b71b681b")
 			(effects
 				(font
 					(size 1 1)
@@ -7082,11 +7082,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8671fe10-2920-4471-bc08-f4117d492788")
+			(uuid "0bc4e2e0-0142-44ad-9ac1-f91224326adf")
 			(effects
 				(font
 					(size 1 1)
@@ -7099,7 +7099,7 @@
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "140a3362-7cfb-45f4-a94d-746afdd3471a")
@@ -7111,7 +7111,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -6.35 0)
+			(at -6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7123,7 +7123,7 @@
 			(uuid "4e191ec1-04ee-45f3-a166-ed2f2b1e1677")
 		)
 		(pad "2" thru_hole roundrect
-			(at -3.81 0)
+			(at -3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7135,7 +7135,7 @@
 			(uuid "8c309c6c-81a6-4a63-ab0a-7fb27c155085")
 		)
 		(pad "3" thru_hole roundrect
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7147,7 +7147,7 @@
 			(uuid "9a7c5b25-717d-43b1-b05d-880d6887aa7e")
 		)
 		(pad "4" thru_hole roundrect
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7159,7 +7159,7 @@
 			(uuid "cc73ad3f-6e66-43e0-baa6-96f06b5307e9")
 		)
 		(pad "5" thru_hole roundrect
-			(at 3.81 0)
+			(at 3.81 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7171,7 +7171,7 @@
 			(uuid "e10ac6ea-0350-407b-8bc0-abb64b371d72")
 		)
 		(pad "6" thru_hole roundrect
-			(at 6.35 0)
+			(at 6.35 0 90)
 			(size 1.905 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7187,9 +7187,9 @@
 	(footprint "robo:AE-BNO055-BO"
 		(layer "F.Cu")
 		(uuid "de7a86f7-3e92-4103-a3be-29196179fc8b")
-		(at 148.42 40.08 90)
+		(at 148.5 80.5)
 		(property "Reference" "U14"
-			(at 0 -0.5 90)
+			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4673cd8c-d374-4ad2-883f-605c4d4b9f08")
@@ -7201,7 +7201,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 90)
+			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cad026e2-a200-4898-97d8-51c43584ca45")
@@ -7213,7 +7213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7226,7 +7226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7254,7 +7254,7 @@
 			(uuid "6c6b2198-e339-4ba2-bbd9-e881df490b69")
 		)
 		(fp_text user "SCL/R"
-			(at -10.16 5.715 90)
+			(at -10.16 5.715 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0dd7121c-348b-4223-8a25-b9c011f0d6e7")
@@ -7267,7 +7267,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at -8.255 0.635 90)
+			(at -8.255 0.635 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4dbc54e3-8ca2-4352-91d5-2c7d2ec3b943")
@@ -7280,7 +7280,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 7.62 0.635 90)
+			(at 7.62 0.635 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5eb487a1-7501-4a55-93f9-26b3e9bfe8b9")
@@ -7293,7 +7293,7 @@
 			)
 		)
 		(fp_text user "INT"
-			(at 7.62 3.175 90)
+			(at 7.62 3.175 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6952a595-0535-4bab-8bb1-819d1a82959a")
@@ -7306,7 +7306,7 @@
 			)
 		)
 		(fp_text user "VIN"
-			(at -7.62 -1.905 90)
+			(at -7.62 -1.905 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9e64bd67-096f-4dd1-a3fe-960e84e0992d")
@@ -7319,7 +7319,7 @@
 			)
 		)
 		(fp_text user "SDA/T"
-			(at -10.16 3.175 90)
+			(at -10.16 3.175 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b74efe5f-73bd-4a3c-b8f8-45b4ab7d0037")
@@ -7332,7 +7332,7 @@
 			)
 		)
 		(fp_text user "VOUT"
-			(at 7.62 -1.905 90)
+			(at 7.62 -1.905 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f991037d-19cc-47a0-a658-5d185142f663")
@@ -7345,7 +7345,7 @@
 			)
 		)
 		(fp_text user "RESET"
-			(at 7.62 5.715 90)
+			(at 7.62 5.715 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fadf1c61-6d64-4e23-b630-7ba11642a3c0")
@@ -7358,7 +7358,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "33d598dd-e35c-475b-9f98-91c6e5540577")
@@ -7370,7 +7370,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.54 -2.54 90)
+			(at -2.54 -2.54)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7382,7 +7382,7 @@
 			(uuid "b4665426-afa1-406e-9175-fa4e06a27e6a")
 		)
 		(pad "2" thru_hole roundrect
-			(at -2.54 0 90)
+			(at -2.54 0)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7394,7 +7394,7 @@
 			(uuid "d44d7906-8dfa-486d-b58f-b6ca4ccf1ac6")
 		)
 		(pad "3" thru_hole roundrect
-			(at -2.54 2.54 90)
+			(at -2.54 2.54)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7406,7 +7406,7 @@
 			(uuid "bb1308d3-aab7-43a4-871f-70032db97e80")
 		)
 		(pad "4" thru_hole roundrect
-			(at -2.54 5.08 90)
+			(at -2.54 5.08)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7418,7 +7418,7 @@
 			(uuid "bd1053ef-777c-4fba-904e-68f27c8e34db")
 		)
 		(pad "5" thru_hole roundrect
-			(at 5.08 -2.54 90)
+			(at 5.08 -2.54)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7430,7 +7430,7 @@
 			(uuid "6a9a40bc-69f5-4b68-a15a-47ad1e144f17")
 		)
 		(pad "6" thru_hole roundrect
-			(at 5.08 0 90)
+			(at 5.08 0)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7442,7 +7442,7 @@
 			(uuid "c717acce-026e-4ec4-90ff-196ade98aec8")
 		)
 		(pad "7" thru_hole roundrect
-			(at 5.08 2.54 90)
+			(at 5.08 2.54)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7454,7 +7454,7 @@
 			(uuid "3acc6f12-b844-4d25-abed-17980fee3add")
 		)
 		(pad "8" thru_hole roundrect
-			(at 5.08 5.08 90)
+			(at 5.08 5.08)
 			(size 2.54 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7608,7 +7608,7 @@
 	(footprint "robo:VL53L1X-ToF"
 		(layer "F.Cu")
 		(uuid "f4022fe5-c776-416e-9d48-314d0ab7ebb1")
-		(at 107.27 115.54)
+		(at 104 146)
 		(property "Reference" "U10"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -7752,9 +7752,9 @@
 	(footprint "robo:Resister"
 		(layer "F.Cu")
 		(uuid "f776151d-96ea-45ec-a8de-f0ad9dc2b8eb")
-		(at 138.967 48.51 180)
+		(at 136.5 48 90)
 		(property "Reference" "R1"
-			(at 1.016 -3.81 180)
+			(at 1.016 -3.81 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7767,7 +7767,7 @@
 			)
 		)
 		(property "Value" "8.4k"
-			(at 0.254 3.556 180)
+			(at 0.254 3.556 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "78c90a84-f52d-4618-82b2-b4a551f9af88")
@@ -7779,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1.27 0 180)
+			(at 1.27 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7792,7 +7792,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 1.27 0 180)
+			(at 1.27 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7841,7 +7841,7 @@
 			(uuid "572d0a61-e54e-480a-94a9-93f5477d0ca1")
 		)
 		(fp_text user "Ohm"
-			(at -1.778 -1.524 180)
+			(at -1.778 -1.524 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7644994b-c437-471e-876a-62b18cd9c115")
@@ -7854,7 +7854,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2.5 180)
+			(at 1.27 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c8da5a38-73d2-42b1-bb05-8fd61f5bf4c7")
@@ -7866,7 +7866,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -3.81 0 180)
+			(at -3.81 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7876,7 +7876,7 @@
 			(uuid "a1583a7f-1c7d-46e4-a9c6-7e511b75c3e3")
 		)
 		(pad "2" thru_hole circle
-			(at 3.81 0 180)
+			(at 3.81 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
