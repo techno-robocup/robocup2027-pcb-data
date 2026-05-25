@@ -1938,6 +1938,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "robo:AE-BNO055-BO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AE-BNO055-BO_0_1"
+				(rectangle
+					(start -8.89 5.08)
+					(end 8.89 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AE-BNO055-BO_1_1"
+				(pin power_in line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "SDA/T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "SCL/R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "robo:AE-HX711-SIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4308,6 +4516,12 @@
 		(uuid "4cb579b5-2304-41e7-aad6-bcfc01031d74")
 	)
 	(junction
+		(at 331.47 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50204898-a684-4c23-9270-fc9f6ce338ef")
+	)
+	(junction
 		(at 91.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4654,6 +4868,10 @@
 		(uuid "4dab3aa5-1ff2-426d-ac73-fd2c5190745e")
 	)
 	(no_connect
+		(at 321.31 113.03)
+		(uuid "4ff998fd-4f7b-4d71-8ce4-8c9ccfada4af")
+	)
+	(no_connect
 		(at 200.66 66.04)
 		(uuid "503cb107-a98c-4b0c-8d86-398fc082c52b")
 	)
@@ -4672,6 +4890,10 @@
 	(no_connect
 		(at 307.34 40.64)
 		(uuid "5c3f3850-41d2-4566-8509-e3abd75aa753")
+	)
+	(no_connect
+		(at 321.31 107.95)
+		(uuid "5f14a61e-9222-4983-a8c7-b199e5182c63")
 	)
 	(no_connect
 		(at 255.27 146.05)
@@ -4776,6 +4998,10 @@
 	(no_connect
 		(at 200.66 139.7)
 		(uuid "eb82f885-fa71-47bb-ba7d-c111892097fa")
+	)
+	(no_connect
+		(at 321.31 105.41)
+		(uuid "ee7c9be3-6fb3-41ff-bf2c-cdfe13069015")
 	)
 	(no_connect
 		(at 93.98 125.73)
@@ -5057,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 118.11) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfbeaa4-7bc1-43c7-beaa-5e10d6e17916")
+	)
+	(wire
+		(pts
 			(xy 187.96 91.44) (xy 187.96 72.39)
 		)
 		(stroke
@@ -5217,6 +5453,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 110.49) (xy 298.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7e4708-d15c-4146-b82e-c2865de954b3")
+	)
+	(wire
+		(pts
 			(xy 195.58 151.13) (xy 200.66 151.13)
 		)
 		(stroke
@@ -5354,6 +5600,16 @@
 			(type default)
 		)
 		(uuid "3e71ffbd-cec6-471d-8926-6d393a8f1fd7")
+	)
+	(wire
+		(pts
+			(xy 294.64 105.41) (xy 298.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec09f43-764c-4e7e-96b5-e047c58c4a8e")
 	)
 	(wire
 		(pts
@@ -5574,6 +5830,16 @@
 			(type default)
 		)
 		(uuid "57fbb8d1-7dc4-4dec-9a60-397a784ca1cd")
+	)
+	(wire
+		(pts
+			(xy 298.45 107.95) (xy 294.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584a68b6-9a19-4d05-a0aa-55dd7834e11a")
 	)
 	(wire
 		(pts
@@ -5827,6 +6093,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 107.95) (xy 294.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740342b0-4933-4380-b19e-99ad7730b795")
+	)
+	(wire
+		(pts
 			(xy 237.49 38.1) (xy 237.49 44.45)
 		)
 		(stroke
@@ -5834,6 +6110,16 @@
 			(type default)
 		)
 		(uuid "7423415d-d122-42dd-a948-5803286df44d")
+	)
+	(wire
+		(pts
+			(xy 331.47 110.49) (xy 331.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7566cca1-8a42-4801-80eb-3158a509393e")
 	)
 	(wire
 		(pts
@@ -6677,6 +6963,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 97.79) (xy 294.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f1af85-299a-472c-83f6-92b0f78601a3")
+	)
+	(wire
+		(pts
 			(xy 200.66 110.49) (xy 187.96 110.49)
 		)
 		(stroke
@@ -6957,6 +7253,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 110.49) (xy 331.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee99c3af-293a-41b1-b64a-11b5cfe1395f")
+	)
+	(wire
+		(pts
 			(xy 55.88 172.72) (xy 55.88 186.69)
 		)
 		(stroke
@@ -6964,6 +7270,16 @@
 			(type default)
 		)
 		(uuid "ef93a61a-22c0-4e52-8f1d-25bb1e1607b7")
+	)
+	(wire
+		(pts
+			(xy 294.64 118.11) (xy 331.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbfd0c7-51b7-4352-81cf-b8d11777f1e1")
 	)
 	(wire
 		(pts
@@ -7164,6 +7480,16 @@
 			(type default)
 		)
 		(uuid "fc4de5c9-3969-4530-b439-60c1ed139279")
+	)
+	(wire
+		(pts
+			(xy 292.1 113.03) (xy 298.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdba3c27-7db9-40f0-8a2c-f35dc6db7b92")
 	)
 	(wire
 		(pts
@@ -7745,6 +8071,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 292.1 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d676da21-5cd8-486c-af83-b176f8ea880f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.4948 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SG90_1_SIG"
 		(shape output)
 		(at 121.92 48.26 180)
@@ -7780,6 +8128,28 @@
 		(uuid "dbfc7273-addd-4018-93bd-f05e1e23bf74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 290.6875 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 292.1 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed3b4335-9ad6-480d-a09a-c00f0d3c2241")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.5553 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9667,6 +10037,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 331.47 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4930cc02-321f-4cce-9abc-b9992f6b7ef4")
+		(property "Reference" "#PWR027"
+			(at 331.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ca977c-2781-4eb3-8ae9-f6733613bfed")
+		)
+		(instances
+			(project "robocup2027-pcb-data"
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robo:STS3032")
 		(at 40.64 170.18 90)
 		(unit 1)
@@ -10286,6 +10722,72 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 294.64 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59777f20-8eb0-4e24-8712-064b148f5ec0")
+		(property "Reference" "#PWR028"
+			(at 294.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 294.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 294.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acf0cf35-f6dc-4dba-84ee-0979a7c355d8")
+		)
+		(instances
+			(project "robocup2027-pcb-data"
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11122,6 +11624,92 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:AE-BNO055-BO")
+		(at 309.88 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889a7059-09de-42cb-80eb-ed848558529d")
+		(property "Reference" "U14"
+			(at 309.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 309.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "robo:AE-BNO055-BO"
+			(at 309.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fb9b93b8-24f6-4e2a-89a2-50a197e654b9")
+		)
+		(pin "4"
+			(uuid "99e5d215-240d-49db-b911-0f6453b8698a")
+		)
+		(pin "6"
+			(uuid "dd3aa722-1152-4557-9b11-26076341ed84")
+		)
+		(pin "7"
+			(uuid "6c836978-a188-4edb-9a1c-746bdc0b805e")
+		)
+		(pin "3"
+			(uuid "6ef9c006-ef16-4c75-8a27-6d77e6ed4963")
+		)
+		(pin "1"
+			(uuid "bbc0e88c-039d-43fd-908e-eced05a1680b")
+		)
+		(pin "2"
+			(uuid "3b6f3b07-de0b-4cd7-81d1-566ad1b025ca")
+		)
+		(pin "8"
+			(uuid "0cb065a2-7264-4212-bb07-e204730de7fa")
+		)
+		(instances
+			(project "robocup2027-pcb-data"
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "U14")
 					(unit 1)
 				)
 			)
