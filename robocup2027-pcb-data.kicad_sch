@@ -11697,7 +11697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:DS-850K-S-ON"
+		(property "Footprint" "robo:CW-SB11KKFF"
 			(at 86.36 133.35 0)
 			(effects
 				(font
@@ -12878,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:DS-850K-S-ON"
+		(property "Footprint" "robo:CW-SB11KKFF"
 			(at 38.1 38.1 0)
 			(effects
 				(font
