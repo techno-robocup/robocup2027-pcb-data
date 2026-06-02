@@ -5,122 +5,6 @@
 	(uuid "fda8bdee-4e79-4e78-9174-7c0702f316a4")
 	(paper "A3")
 	(lib_symbols
-		(symbol "DCDC-3.3v_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "robo:DCDC-M78AR033-0.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DCDC-3.3v_1_1_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2390,6 +2274,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "robo:DCDC-3.3v"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "robo:DCDC-M78AR033-0.5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DCDC-3.3v_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "robo:DCDC-LTC3111"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3469,6 +3469,106 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robo:PKM13EPYH4000-A0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "robo:PKM13EPYH4000-A0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PKM13EPYH4000-A0_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PKM13EPYH4000-A0_1_1"
+				(pin input line
+					(at -1.27 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -2.54 90)
+					(length 2.54)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4904,10 +5004,6 @@
 	(no_connect
 		(at 134.62 166.37)
 		(uuid "94c636f8-1d62-46b9-9d33-2965bc4226f5")
-	)
-	(no_connect
-		(at 134.62 158.75)
-		(uuid "9c7bec1d-e01d-46db-9986-880b04f304fb")
 	)
 	(no_connect
 		(at 93.98 161.29)
@@ -7779,6 +7875,28 @@
 			)
 		)
 	)
+	(global_label "Debug"
+		(shape output)
+		(at 134.62 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d138f8b-c74f-40af-a91a-5a567aaf7afc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4108 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XSHUT5"
 		(shape input)
 		(at 167.64 139.7 180)
@@ -7792,6 +7910,28 @@
 		(uuid "44ceb700-32fe-4b31-a21f-38d0325e07c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.3977 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Debug"
+		(shape input)
+		(at 168.91 173.99 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46a78350-1932-4100-adee-a87e73f18852")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 182.7808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +10055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:MODULE_ESP32-DEVKITC-32E"
+		(property "Footprint" "ESP32-DEVKITC-32E:MODULE_ESP32-DEVKITC-32E"
 			(at 114.3 146.05 0)
 			(effects
 				(font
@@ -10693,7 +10833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:2.54mm_capacitor"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 247.904 47.752 0)
 			(effects
 				(font
@@ -12360,7 +12500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:2.54mm_capacitor"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 247.904 64.262 0)
 			(effects
 				(font
@@ -12631,7 +12771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:CW-SB11KKFF"
+		(property "Footprint" "4-1437565-0:SW_4-1437565-0"
 			(at 86.36 133.35 0)
 			(effects
 				(font
@@ -12805,7 +12945,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DCDC-3.3v_1")
 		(lib_id "robo:DCDC-3.3v")
 		(at 101.6 36.83 270)
 		(unit 1)
@@ -13013,6 +13152,72 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b325038e-3832-4eec-9c78-785a84d28a3d")
+		(property "Reference" "#PWR029"
+			(at 166.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27085ed3-cd83-49f7-a897-b327eefcc0d1")
+		)
+		(instances
+			(project "robocup2027-pcb-data"
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13812,7 +14017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:CW-SB11KKFF"
+		(property "Footprint" "4-1437565-0:SW_4-1437565-0"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -13980,6 +14185,76 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:PKM13EPYH4000-A0")
+		(at 167.64 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6729827-43be-4c4d-bbb7-696dce18eb4c")
+		(property "Reference" "U17"
+			(at 170.18 169.5449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 172.0849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "robo:PKM13EPYH4000-A0"
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d65b35-9974-47e0-a300-871dbf219427")
+		)
+		(pin "2"
+			(uuid "2e8b3f76-c768-49f0-b0f7-f7bdca38e292")
+		)
+		(instances
+			(project ""
+				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
+					(reference "U17")
 					(unit 1)
 				)
 			)
