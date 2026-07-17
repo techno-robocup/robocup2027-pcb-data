@@ -210,6 +210,8 @@
 	(net 67 "unconnected-(U14-VOUT-Pad8)")
 	(net 68 "unconnected-(U14-RESET-Pad5)")
 	(net 69 "unconnected-(U14-INT-Pad6)")
+	(net 70 "unconnected-(U1-IO4-PadJ3_13)")
+	(net 71 "unconnected-(U1-IO35-PadJ2_6)")
 	(footprint "robo:MODULE_ESP32-DEVKITC-32E"
 		(layer "F.Cu")
 		(uuid "01d4d09c-a42b-4ea5-ac82-e027dd15c0f6")
@@ -943,9 +945,9 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "photoresistor_1")
+			(net 71 "unconnected-(U1-IO35-PadJ2_6)")
 			(pinfunction "IO35")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "b3f4f9b0-3864-4fcb-9af3-dd433151a46d")
 		)
@@ -1255,9 +1257,9 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "photoresistor_2")
+			(net 70 "unconnected-(U1-IO4-PadJ3_13)")
 			(pinfunction "IO4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "7a9e0a70-537e-4928-9263-1c75cef0da12")
 		)
@@ -3443,7 +3445,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*D5.0mm*Clear*")
-		(path "/93fbb210-2f02-48a2-b0b2-dc1ac689aa7c")
 		(sheetname "/")
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
@@ -4744,7 +4745,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5320fdfb-476b-4147-a64a-f22f669d0785")
 		(sheetname "/")
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
@@ -6558,7 +6558,6 @@
 			)
 		)
 		(property ki_fp_filters "LED*D5.0mm*Clear*")
-		(path "/505a6930-315b-4f46-8228-3b2afb4b69d7")
 		(sheetname "/")
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
@@ -7534,7 +7533,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/05302eed-5689-4277-bc56-c068217b9fa4")
 		(sheetname "/")
 		(sheetfile "robocup2027-pcb-data.kicad_sch")
 		(attr through_hole)
@@ -8513,10 +8511,10 @@
 		(layer "Edge.Cuts")
 		(uuid "de83551f-9f86-4e98-a2dd-8d6e85ce3212")
 	)
-	(gr_text "1000uF"
-		(at 162 76.6 0)
+	(gr_text "470uF"
+		(at 162.4 93.6 0)
 		(layer "F.SilkS")
-		(uuid "d467fa3d-fb4d-43a0-b8bd-1fd55d7eb05b")
+		(uuid "783d4d55-aae5-4b1d-be4e-615b91306df1")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -8525,10 +8523,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "470uF"
-		(at 162.4 93.6 0)
+	(gr_text "1000uF"
+		(at 162 76.6 0)
 		(layer "F.SilkS")
-		(uuid "783d4d55-aae5-4b1d-be4e-615b91306df1")
+		(uuid "d467fa3d-fb4d-43a0-b8bd-1fd55d7eb05b")
 		(effects
 			(font
 				(size 1.5 1.5)
