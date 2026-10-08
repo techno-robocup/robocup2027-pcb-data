@@ -1025,226 +1025,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Optical:BPW40"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BPW40"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-				(at 12.192 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Phototransistor NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "npn phototransistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*D5.0mm*Clear*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BPW40_0_1"
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BPW40_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4590,12 +4370,6 @@
 		(uuid "3a565c96-5539-4a91-8523-71e515fcdfde")
 	)
 	(junction
-		(at 243.84 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "402f56dc-4a8d-4c95-8b53-a83e4e014195")
-	)
-	(junction
 		(at 198.12 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4732,12 +4506,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e593a8-fd5d-4b63-9418-45c22c12331d")
-	)
-	(junction
-		(at 237.49 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92a793b2-cfe9-4cb5-b7af-f4ab0600167a")
 	)
 	(junction
 		(at 52.07 167.64)
@@ -4888,12 +4656,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3c7dcef-0748-497c-a7f8-01847fb2c43e")
-	)
-	(junction
-		(at 256.54 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5a92762-e504-4ffd-b6af-68e3a200a5f9")
 	)
 	(junction
 		(at 49.53 128.27)
@@ -5475,16 +5237,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 54.61) (xy 243.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27663077-93de-401d-b6db-dfcbe7e43356")
-	)
-	(wire
-		(pts
 			(xy 43.18 181.61) (xy 52.07 181.61)
 		)
 		(stroke
@@ -5592,16 +5344,6 @@
 			(type default)
 		)
 		(uuid "35bd9cf6-5a25-4002-9d44-cbd4b72ed811")
-	)
-	(wire
-		(pts
-			(xy 232.41 38.1) (xy 237.49 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37178c6a-68cb-4180-af63-5af8fae835d1")
 	)
 	(wire
 		(pts
@@ -6035,16 +5777,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 52.07) (xy 237.49 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e6e5f3e-6daa-4483-a21f-a40ec6dfb9fe")
-	)
-	(wire
-		(pts
 			(xy 196.85 43.18) (xy 171.45 43.18)
 		)
 		(stroke
@@ -6105,16 +5837,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 54.61) (xy 243.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65ec9c68-6985-453f-b569-319abb5475b9")
-	)
-	(wire
-		(pts
 			(xy 121.92 62.23) (xy 127 62.23)
 		)
 		(stroke
@@ -6142,16 +5864,6 @@
 			(type default)
 		)
 		(uuid "69143fc0-53d9-4875-9f7e-9a232adc6e7d")
-	)
-	(wire
-		(pts
-			(xy 243.84 54.61) (xy 243.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b043a87-f228-417f-b0b8-92d516963dc3")
 	)
 	(wire
 		(pts
@@ -6222,16 +5934,6 @@
 			(type default)
 		)
 		(uuid "740342b0-4933-4380-b19e-99ad7730b795")
-	)
-	(wire
-		(pts
-			(xy 237.49 38.1) (xy 237.49 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7423415d-d122-42dd-a948-5803286df44d")
 	)
 	(wire
 		(pts
@@ -6755,16 +6457,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 20.32) (xy 256.54 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad52fbf8-6ccc-402d-b8f8-34355af2a370")
-	)
-	(wire
-		(pts
 			(xy 144.78 132.08) (xy 144.78 135.89)
 		)
 		(stroke
@@ -6962,16 +6654,6 @@
 			(type default)
 		)
 		(uuid "c52cf589-3a54-4982-bfe7-f567a1a6d2a8")
-	)
-	(wire
-		(pts
-			(xy 246.38 38.1) (xy 237.49 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58186bd-5ce3-4514-80d7-1a87bff3d4a4")
 	)
 	(wire
 		(pts
@@ -7222,16 +6904,6 @@
 			(type default)
 		)
 		(uuid "dd3969f9-e7e0-4ee9-bdb9-c3615fcd27a2")
-	)
-	(wire
-		(pts
-			(xy 243.84 63.5) (xy 243.84 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcd8eb1-f2ed-49ce-9d37-808c1ad7f586")
 	)
 	(wire
 		(pts
@@ -7675,16 +7347,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 38.1) (xy 256.54 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff679fd1-fcc0-4f23-ba5a-6093255a7230")
-	)
-	(wire
-		(pts
 			(xy 152.4 128.27) (xy 156.21 128.27)
 		)
 		(stroke
@@ -8023,28 +7685,6 @@
 			)
 		)
 	)
-	(global_label "photoresistor_2"
-		(shape input)
-		(at 232.41 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "833676b7-599d-4649-8895-a3f40ce485a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.7293 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "load1_CLK"
 		(shape input)
 		(at 259.08 100.33 0)
@@ -8353,28 +7993,6 @@
 			)
 		)
 	)
-	(global_label "photoresistor_1"
-		(shape input)
-		(at 232.41 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6309bc3-737d-42c0-a7c2-5ac347cff35f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.7293 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FE-URT-2-TXD"
 		(shape input)
 		(at 299.72 30.48 180)
@@ -8658,76 +8276,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05302eed-5689-4277-bc56-c068217b9fa4")
-		(property "Reference" "R4"
-			(at 240.03 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 240.03 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robo:Resister"
-			(at 235.712 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd3120cd-9664-440c-aec0-9b51a78d2b4a")
-		)
-		(pin "2"
-			(uuid "735c1ed5-6e2e-4b48-b328-c282833367ec")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "R4")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -9078,72 +8626,6 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 243.84 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0be877a9-4a25-458d-937f-a55147d76006")
-		(property "Reference" "#PWR021"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49c1e36c-8dab-4893-9c1f-a94eb8142a34")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10714,74 +10196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Optical:BPW40")
-		(at 251.46 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "505a6930-315b-4f46-8228-3b2afb4b69d7")
-		(property "Reference" "Q1"
-			(at 252.2093 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BPW40"
-			(at 252.2093 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 247.904 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phototransistor NPN"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f304038f-1694-4247-9dc5-2824f62454da")
-		)
-		(pin "1"
-			(uuid "1b04ec3c-feec-456b-8c85-db5e7b2f177c")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 22.86 87.63 0)
 		(unit 1)
@@ -10910,76 +10324,6 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5320fdfb-476b-4147-a64a-f22f669d0785")
-		(property "Reference" "R5"
-			(at 246.38 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 246.38 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "robo:Resister"
-			(at 242.062 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97f85e34-c9c6-480c-8b8b-e1979dc1e08e")
-		)
-		(pin "1"
-			(uuid "f84e9a5c-8bf0-48eb-a9ea-997ea08c2706")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12315,140 +11659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 237.49 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91fd664c-d18e-4bdb-9d93-fd31f6ad250b")
-		(property "Reference" "#PWR020"
-			(at 237.49 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d473bb8-a8ce-4a31-8ea6-a881038c28a9")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Optical:BPW40")
-		(at 251.46 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93fbb210-2f02-48a2-b0b2-dc1ac689aa7c")
-		(property "Reference" "Q2"
-			(at 252.2093 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BPW40"
-			(at 252.2093 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 247.904 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
-			(at 251.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phototransistor NPN"
-			(at 251.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1c8cc2b-448b-46c9-b969-fabe9aac2163")
-		)
-		(pin "1"
-			(uuid "9adbe7d1-01f8-4802-9832-fda70fc9f69d")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 91.44 33.02 0)
 		(unit 1)
@@ -13752,72 +12962,6 @@
 			(project "robocup2027-pcb-data"
 				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 256.54 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cee9261a-f648-4b5a-b8e3-4756b4d75a05")
-		(property "Reference" "#PWR019"
-			(at 256.54 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 256.54 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 256.54 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "deb36542-1e23-4cf0-8911-b08009dbc966")
-		)
-		(instances
-			(project "robocup2027-pcb-data"
-				(path "/fda8bdee-4e79-4e78-9174-7c0702f316a4"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
